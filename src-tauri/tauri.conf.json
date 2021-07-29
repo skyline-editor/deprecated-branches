@@ -9,11 +9,10 @@
     "beforeDevCommand": "",
     "beforeBuildCommand": ""
   },
-
   "tauri": {
     "allowlist": {
       "fs": {
-        "readDir": true
+        "all": true
       }
     },
     "bundle": {
